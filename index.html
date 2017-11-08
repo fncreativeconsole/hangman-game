@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+  <div class="jumbotron">
+  <h1><center>Hangman Game</center></h1>
+  <h3><center>Press any key to get started!</center></h3>
+  </div>
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-6">
+<center><h3>Wins: <span id="wins">0 </span></h3></center>
+</div>
+
+<div class="col-md-6">
+<center><h3>Losses: <span id="losses">0</span></h3></center>
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<center><p>Number of Guesses Remaining: <span id="guessesrem"></span></p></center>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<h1><center>Current Word</center></h1>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<h3 id="current-word"></h3>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<p><center>Letters Guessed: <span id="letters-guessed"></span></center></p>
+</div>
+</div>
+
+
+</div>
+
+
+  </body>
+
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
+  </html>
